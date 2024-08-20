@@ -18,7 +18,8 @@ func main() {
 	log.Fatal(http.ListenAndServe(":4000", r))
 }
 
-func somethingToMakeALittleChange() {
+func SomethingToMakeALittleChange() {
+	fmt.Println("Something major")
 	for {
 		fmt.Println("Ahaha")
 	}
